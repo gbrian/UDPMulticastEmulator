@@ -1,0 +1,23 @@
+{
+  "name": "UDPMulticastEmulator",
+  "version": "0.0.0",
+  "description": "Replicates UDP traffic over TCP on those environments where UDP is not enabled like cloud instances.",
+  "main": "UDPMulticastEmulator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbrian/UDPMulticastEmulator"
+  },
+  "keywords": [
+    "udp",
+    "cloud",
+    "multicast"
+  ],
+  "author": "Gustavo Brian <gustavo.brian@gmail.com> (https://www.linkedin.com/profile/view?id=42069667)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/gbrian/UDPMulticastEmulator/issues"
+  }
+}
