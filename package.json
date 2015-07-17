@@ -1,6 +1,6 @@
 {
   "name": "UDPMulticastEmulator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Replicates UDP traffic over TCP on those environments where UDP is not enabled like cloud instances.",
   "main": "UDPMulticastEmulator.js",
   "scripts": {
@@ -19,5 +19,11 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/gbrian/UDPMulticastEmulator/issues"
+  },
+  { "dependencies" :
+	  { 
+		"socket.io" : "1.3.6",
+		"socket.io-client" : "1.3.6"
+	  }
   }
 }
